@@ -37,3 +37,5 @@ with st.form("intake_form"):
 
     st.markdown("### 🎨 5. Stijlvoorkeur")
     stijl = st.selectbox("Welke uitstraling wil je?", ["Modern", "Functioneel", "Warm klassiek"])
+    submitted = st.form_submit_button("➡️ Genereer voorstel")
+
