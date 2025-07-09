@@ -36,4 +36,4 @@ with st.form("intake_form"):
     budget = st.radio("Kies je budget", ["Onder €10.000", "€10.000 - €20.000", "Boven €20.000"])
 
     st.markdown("### 🎨 5. Stijlvoorkeur")
-    stijl = st.selectbox("Welke uitstraling wil je?", ["Modern", "Functioneel", "Warm klassiek"]()
+    stijl = st.selectbox("Welke uitstraling wil je?", ["Modern", "Functioneel", "Warm klassiek"])
